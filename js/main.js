@@ -15,7 +15,8 @@ document.addEventListener('DOMContentLoaded' , function() {
 			menuMob.style.display = "none";
 			document.querySelector('.header').style.flexDirection = "column";
 		}
-		
+	}
+	
 		if(document.body.clientWidth <= 700) {
 			document.querySelector('.header-menu').style.display = "none";
 			menuMob.style.display = "block";
@@ -26,7 +27,6 @@ document.addEventListener('DOMContentLoaded' , function() {
 			menuMob.style.display = "none";
 			document.querySelector('.header').style.flexDirection = "column";
 		}
-	}
 
 });
 
