@@ -254,6 +254,7 @@ header a {
 	}
 
 	.back-mobile {
+		display: none;
 		height: 100vh;
 		background-color: #BBA3AA;	
 	}
