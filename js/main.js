@@ -10,6 +10,13 @@ document.addEventListener('DOMContentLoaded' , function() {
 			menuMob.style.display = "block";
 			document.querySelector('.header').style.flexDirection = "row";
 		}
+		
+		else if(document.body.clientWidth <= 1199) {
+			document.querySelector('.header-menu').style.display = "block";
+			document.querySelector('.header').style.flexDirection = "column";
+			menuMob.style.display = "none";
+		}
+
 		else {
 			document.querySelector('.header-menu').style.display = "block";
 			menuMob.style.display = "none";
@@ -22,6 +29,13 @@ document.addEventListener('DOMContentLoaded' , function() {
 			menuMob.style.display = "block";
 			document.querySelector('.header').style.flexDirection = "row";
 		}
+
+		else if(document.body.clientWidth <= 1199) {
+			document.querySelector('.header-menu').style.display = "block";
+			document.querySelector('.header').style.flexDirection = "column";
+			menuMob.style.display = "none";
+		}
+
 		else {
 			document.querySelector('.header-menu').style.display = "block";
 			menuMob.style.display = "none";
