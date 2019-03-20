@@ -313,4 +313,7 @@ header a {
     width: 240px;
     height: 240px;
 } 
+.menu-mobile > img {
+    width: 50px;	
+}
 /* END MEDIA REQUIRES */
